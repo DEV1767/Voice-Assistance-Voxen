@@ -1,4 +1,4 @@
-# 🎤 Voxen – Python Voice Assistant
+# 🎤 Voxen : Python Voice Assistant
 
 **Voxen** is my learning-phase personal voice assistant built with Python.  
 It’s a small but practical project I created while exploring Python libraries for voice recognition and speech synthesis.
@@ -29,3 +29,4 @@ It’s a small but practical project I created while exploring Python libraries 
 
 ---
 
+     All Rights Reserved
