@@ -68,26 +68,27 @@ if __name__ == "__main__":
 
         if 'google' in Query:
             speak("Ok sir i will open Google for you")
-            webbrowser.open('https://www.google.com/')
+            webbrowser.open('#google url')
 
         elif 'introduce yourself' in Query:
             intro()
 
         elif 'open youtube' in Query:
             speak("Ok sir i will open youtube for you")
-            webbrowser.open('https://www.youtube.com/')
+            webbrowser.open('#Youtube url')
 
         elif 'open my github' in Query:
             speak("Ok sir i will open Github for you")
-            webbrowser.open('https://github.com/DEV1767')
+            webbrowser.open('#yor github url')
 
         elif 'open my linkedin' in Query:
             speak("Ok sir i will open Linkedin for you") 
-            webbrowser.open('https://www.linkedin.com/in/shivam076/')
+            webbrowser.open('#your Likedin url')
 
         elif 'open my college account' in Query:
             speak("This will require you College USN number and PassWord to login First Go to student and then enter all detail your usn number and password and For parents login  enter your parents phone number")
-            webbrowser.open('https://jams-jnnce.in/')
+            webbrowser.open('#your clg account url optional make it on your thinking ')
 
         elif 'open whatsapp' in Query:
           webbrowser.open('https://web.whatsapp.com/')
+
