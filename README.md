@@ -1,32 +1,46 @@
-# 🎤 Voxen : Python Voice Assistant
+Sam - Personal Voice Assistant
+Sam is a personal voice assistant built from scratch using Python. It listens to your voice commands, responds with speech, and performs various useful tasks to assist you in your daily routine.
 
-**Voxen** is my learning-phase personal voice assistant built with Python.  
-It’s a small but practical project I created while exploring Python libraries for voice recognition and speech synthesis.
+Features
+Greets you based on the time of day
 
----
+Introduces itself in English and Hindi
 
-## ✨ Features
+Opens popular websites like Google, YouTube, GitHub, LinkedIn, WhatsApp, and your college portal on voice commands
 
-- **Time-based greetings** – Says good morning/afternoon/evening based on the current time  
-- **Bilingual introduction** – Introduces itself in **English & Hindi**  
-- **Voice command website opener** – Opens sites like:
-  - Google
-  - YouTube
-  - GitHub
-  - LinkedIn
-  - My college portal
-  - WhatsApp
-- **Situation-based alerts** – If a site needs credentials like **USN**, **phone number**, or **password**, Voxen informs you before opening it
+Searches Wikipedia and reads out summaries in English, also saving Hindi translations as text files
 
----
+Provides real-time weather updates and 3-day forecasts
 
-## 🛠 Tech Stack
+Fetches live stock prices with detailed data saved for your reference
 
-- **Python**
-- **pyttsx3** – Text-to-speech engine
-- **SpeechRecognition** – Recognizes voice commands
-- **webbrowser** – Opens URLs in the browser
+AI-powered chat support using Groq’s LLaMA model for smart conversation
 
----
+Gives alerts before opening sensitive sites that require login credentials
 
-     All Rights Reserved
+Tech Stack
+Python
+
+pyttsx3
+
+SpeechRecognition
+
+webbrowser module
+
+Wikipedia API
+
+Weather APIs
+
+Alpha Vantage API
+
+Groq AI API
+
+Note
+Due to some reasons, I am unable to share the full source code here as it is a work in progress and not fully polished. This is a dummy version for reference.
+
+You can watch my LinkedIn post to see a full demonstration of Sam’s functionality and capabilities:
+[]
+
+Thank you for your understanding and support!
+
+Let me know if you want the LinkedIn post link or any further customization.
