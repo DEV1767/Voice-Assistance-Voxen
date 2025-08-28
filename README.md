@@ -1,46 +1,54 @@
-Sam - Personal Voice Assistant
-Sam is a personal voice assistant built from scratch using Python. It listens to your voice commands, responds with speech, and performs various useful tasks to assist you in your daily routine.
+Sam is a Python-based voice assistant that works like a personal digital companion. It can understand your voice commands (English & Hindi), respond naturally, and automate daily tasks such as searching the web, fetching weather & stock prices, reading news, playing YouTube music, opening apps, performing calculations, and much more.
 
-Features
-Greets you based on the time of day
+⚡ Built with Python, SpeechRecognition, Pyttsx3, Wikipedia API, Alpha Vantage, Weather APIs, NewsData API, PyWhatKit, and Groq LLM integration.
 
-Introduces itself in English and Hindi
+✨ Features
 
-Opens popular websites like Google, YouTube, GitHub, LinkedIn, WhatsApp, and your college portal on voice commands
+Voice recognition & natural text-to-speech responses
 
-Searches Wikipedia and reads out summaries in English, also saving Hindi translations as text files
+Wikipedia & Groq AI-powered knowledge search
 
-Provides real-time weather updates and 3-day forecasts
+Stock price updates (Alpha Vantage API)
 
-Fetches live stock prices with detailed data saved for your reference
+Current weather & 3-day forecast (Weatherstack & WeatherAPI)
 
-AI-powered chat support using Groq’s LLaMA model for smart conversation
+Daily news headlines (India & Global – NewsData API)
 
-Gives alerts before opening sensitive sites that require login credentials
+Calculator with spoken numbers
 
-Tech Stack
+YouTube music & Google search by voice
+
+Open desktop apps via commands
+
+Experimental: Notepad auto-typing
+
+📌 Note
+
+Due to some reasons, this repository only contains demo code snippets of the assistant.
+The full working version is shown in the attached video demonstration. 🎥
+
+
+📹 Demo Video
+
+👉 Watch the full working demo here
+ ()
+
+🛠️ Tech Stack
+
 Python
 
-pyttsx3
+SpeechRecognition & Pyttsx3 (voice input/output)
 
-SpeechRecognition
+APIs: Alpha Vantage (stocks), Weatherstack & WeatherAPI (weather), NewsData.io (news), Wikipedia
 
-webbrowser module
+Groq LLM (Llama-3) for advanced queries
 
-Wikipedia API
+PyWhatKit & PyAutoGUI for automation
 
-Weather APIs
+📧 Contact
 
-Alpha Vantage API
+Developed by Shivam Chaudhary
 
-Groq AI API
+LinkedIn: 
 
-Note
-Due to some reasons, I am unable to share the full source code here as it is a work in progress and not fully polished. This is a dummy version for reference.
-
-You can watch my LinkedIn post to see a full demonstration of Sam’s functionality and capabilities:
-[]
-
-Thank you for your understanding and support!
-
-Let me know if you want the LinkedIn post link or any further customization.
+GitHub: 
