@@ -31,7 +31,7 @@ The full working version is shown in the attached video demonstration. 🎥
 📹 Demo Video
 
 👉 Watch the full working demo here
- ()
+ (https://youtu.be/fsK01Ha7xPY)
 
 🛠️ Tech Stack
 
